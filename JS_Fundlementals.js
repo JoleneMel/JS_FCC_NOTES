@@ -1,4 +1,5 @@
-/*All js variables are case sensitive, new variables should be in camelCase, snake case = snake_case(ruby and rust use these), 
+/*Class one
+All js variables are case sensitive, new variables should be in camelCase, snake case = snake_case(ruby and rust use these), 
 let should be used in place of var when possible 
 
 The difference between var and let keywords, let (ES6 addition) we can declare variable more than once with var(same case etc) while let 
@@ -50,3 +51,12 @@ example2--;
 //Now an odd thing is the below code 
 example2 = example2--;
 //will print out the previous result (after the decrement of 1 it would print out 42)
+
+/*Decimal numbers, not whole numbers(duh), Note that not all numbers can accurately be represented in floating point. Which can cause rounding issues
+more information here https://en.wikipedia.org/wiki/Floating-point_arithmetic#Accuracy_problems
+With the assignment operators you can do anything like you would be with decimals :) 
+Q&A Part :) 
+Semi colons are like new lines and standard practice 
+
+let should be used over var
+ */
