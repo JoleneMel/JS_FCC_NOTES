@@ -22,4 +22,19 @@ assignment operators
 +=
 -= 
 *
+/
+
+If you divide / with a 0 example 3/0 = infinity within JavaScript 
+
+Increment w/ variables ex below 
+*/
+let example = 33;
+//The increment is short hand for this 
+//example = example + 1;
+//So with this below it looks like this 
+example++;
+//Now an odd thing is the below code 
+example = example++;
+//will print out the previous result (after the addition of 1 it would print out 34)
+/*
 */
