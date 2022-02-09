@@ -36,5 +36,17 @@ example++;
 //Now an odd thing is the below code 
 example = example++;
 //will print out the previous result (after the addition of 1 it would print out 34)
-/*
+//Why because it is incremented but not updated, it is because this is done after the assignment variable now before
+
+
+/*Like with the increment there is also a decrement shorthand, example2 below 
 */
+
+let example2 = 43;
+//The decrement is short hand for this 
+//example = example - 1;
+//So with this below it looks like this 
+example2--;
+//Now an odd thing is the below code 
+example2 = example2--;
+//will print out the previous result (after the decrement of 1 it would print out 42)
