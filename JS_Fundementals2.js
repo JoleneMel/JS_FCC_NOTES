@@ -192,3 +192,23 @@ myStr4 += " ";
 myStr4 += "This is the end.";
 //Note it needs to let for += to work properly NOT const, reminder that const cannot have their values changed 
 //Using the compounding assignment we are able to make it like the above
+//Another example 
+let myStr5 = "This is the first sentence.";
+myStr5 += " This is the second sentence.";
+
+/*
+ Constructing Strings with Variables
+ Sometimes you will need to build a string, Mad Libs style. 
+ By using the concatenation operator (+), you can insert one or more variables into a string you're building.
+
+ Example:
+*/
+const ourName = "freeCodeCamp";
+const ourStr = "Hello, our name is " + ourName + ", how are you?";
+/*
+ourStr would have a value of the string Hello, our name is freeCodeCamp, how are you?.
+*/
+//ex2
+const myName2 = "Jojo";
+const myStr20 = "My name is " + myName2 + " and I am well!";
+//This works with numbers, whole, decimal etc. Strings in JavaScript also accept emojis! 
