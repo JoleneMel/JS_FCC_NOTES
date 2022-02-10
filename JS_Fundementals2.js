@@ -50,3 +50,13 @@ myVar *= 5;
 let b = 12;
 b %= 2;
 //It can be done :) 
+
+//This can be done with the devision operator as well examples below since this is a little repeatitive 
+let a = 48;
+let b = 108;
+let c = 33;
+
+// Only change code below this line
+a /= 12;
+b /= 4;
+c /= 11;
