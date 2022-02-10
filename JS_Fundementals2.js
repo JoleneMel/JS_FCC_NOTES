@@ -37,3 +37,10 @@ Compound operators also work with negative numbers, Like the += operator, -= sub
 myVar = myVar - 5; 
 //Is the same as 
 myVar -= 5;
+
+/*
+Keeping with the trend we can also do the same with multiplication
+
+The *= operator multiplies a variable by a number. will multiply myVar by 5. This can be rewritten as:
+*/
+myVar *= 5;
