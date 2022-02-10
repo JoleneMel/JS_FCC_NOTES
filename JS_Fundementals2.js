@@ -181,5 +181,13 @@ const ourStr = "I come first. " + "I come second.";
 /*
 The string I come first. I come second. would be displayed in the console.
 */
-
-//
+//TLDL
+//Concatenating is basically adding both strings together, sometimes you have to add a space at the end or like + " " + to properly have a space
+const myStr3 = "This is the start. " + "This is the end.";
+//or 
+let myStr4 = "This is the start."+ " " + "This is the end."; // to add a space 
+//or if we combine what we did above we can make this more complex 
+let myStr4 = "This is the start.";
+myStr4 += " ";
+myStr4 += "This is the end.";
+//Note it needs to let for += to work properly NOT const 
