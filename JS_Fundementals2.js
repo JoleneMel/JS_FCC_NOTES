@@ -122,3 +122,45 @@ In the goodStr above, you can use both quotes safely by using the backslash \ as
 
 Note: The backslash \ should not be confused with the forward slash /. They do not do the same thing.
 */
+
+//So within JavaScript you can use "" or '' for strings, within that it is an easier way to use " " by doing something like this 
+
+let exampleForAbove = 'Hello I "am" a string';
+//The above works because it is not a double quote within a double quote 
+
+//For another answer we do not need to escape any back ticks `` see below for an example 
+
+let exampleForAbove2 = 'Hello I `am` a string';
+
+/*
+With different ways to escape there are different methods of doing so see below for the escape sequences in strings 
+Escape Sequences in Strings
+Quotes are not the only characters that can be escaped inside a string. There are two reasons to use escaping characters:
+
+To allow you to use characters you may not otherwise be able to type out, such as a carriage return.
+To allow you to represent multiple quotes in a string without JavaScript misinterpreting what you mean.
+
+
+Code	Output
+\'	single quote
+\"	double quote
+\\	backslash
+\n	newline
+\r	carriage return
+\t	tab
+\b	word boundary
+\f	form feed
+Note that the backslash itself must be escaped in order to display as a backslash.
+
+Assign the following three lines of text into the single variable myStr using escape sequences.
+
+FirstLine
+    \SecondLine
+ThirdLine
+You will need to use escape sequences to insert special characters correctly. 
+You will also need to follow the spacing as it looks above, with no spaces between escape sequences or words.
+
+Note: The indentation for SecondLine is achieved with the tab escape character, not spaces.
+*/
+//So if we want to accomplish the above we would do like below 
+const myStr2 = "FirstLine\n\t\\SecondLine\nThirdLine";
