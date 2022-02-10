@@ -30,3 +30,10 @@ One such operator is the += operator. example
 let myVar = 1;
 myVar += 5;
 console.log(myVar);
+
+/* 
+Compound operators also work with negative numbers, Like the += operator, -= subtracts a number from a variable.
+*/
+myVar = myVar - 5; 
+//Is the same as 
+myVar -= 5;
