@@ -190,4 +190,5 @@ let myStr4 = "This is the start."+ " " + "This is the end."; // to add a space
 let myStr4 = "This is the start.";
 myStr4 += " ";
 myStr4 += "This is the end.";
-//Note it needs to let for += to work properly NOT const 
+//Note it needs to let for += to work properly NOT const, reminder that const cannot have their values changed 
+//Using the compounding assignment we are able to make it like the above
