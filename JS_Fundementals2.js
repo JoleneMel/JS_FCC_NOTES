@@ -44,3 +44,9 @@ Keeping with the trend we can also do the same with multiplication
 The *= operator multiplies a variable by a number. will multiply myVar by 5. This can be rewritten as:
 */
 myVar *= 5;
+
+//Can you do the remainder operator with the compound operator? 
+//With an example like 
+let b = 12;
+b %= 2;
+//It can be done :) 
