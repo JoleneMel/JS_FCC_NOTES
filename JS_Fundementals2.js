@@ -214,3 +214,5 @@ const myStr20 = "My name is " + myName2 + " and I am well!";
 //This works with numbers, whole, decimal etc. Strings in JavaScript also accept emojis! 
 //Stopped notetation at 33:38 mins due to needing to get back on track but will continue later and will come back to this as it is very fun 
 //to rewatch and just have my own account of the information, will try to get back on track asap because I am BEHIND and it stresses me out a lil bit
+
+//New thing added
