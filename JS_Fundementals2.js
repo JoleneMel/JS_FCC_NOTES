@@ -216,3 +216,5 @@ const myStr20 = "My name is " + myName2 + " and I am well!";
 //to rewatch and just have my own account of the information, will try to get back on track asap because I am BEHIND and it stresses me out a lil bit
 
 //New thing added
+
+//I hope to add more to this soon...
