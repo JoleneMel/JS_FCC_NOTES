@@ -73,3 +73,14 @@ Add two console.log() statements to check the typeof each of the two variables s
 
 */
 //Answer
+let seven = 7;
+let three = "3";
+//type = number
+console.log(typeof seven);
+
+//type is string
+console.log(typeof three);
+
+//this will output 73 not 10 (duh)
+console.log(seven + three);
+// Only change code below this line
