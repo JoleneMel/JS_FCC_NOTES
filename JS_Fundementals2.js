@@ -47,7 +47,7 @@ myVar *= 5;
 
 //Can you do the remainder operator with the compound operator? 
 //With an example like 
-let b = 12;
+let b1 = 12;
 b %= 2;
 //It can be done :) 
 
@@ -177,7 +177,7 @@ Note: Watch out for spaces. Concatenation does not add spaces between concatenat
 Example:
 */
 
-const ourStr = "I come first. " + "I come second.";
+const ourStr2 = "I come first. " + "I come second.";
 /*
 The string I come first. I come second. would be displayed in the console.
 */
@@ -187,9 +187,9 @@ const myStr3 = "This is the start. " + "This is the end.";
 //or 
 let myStr4 = "This is the start."+ " " + "This is the end."; // to add a space 
 //or if we combine what we did above we can make this more complex 
-let myStr4 = "This is the start.";
-myStr4 += " ";
-myStr4 += "This is the end.";
+// let myStr4 = "This is the start.";
+// myStr4 += " ";
+// myStr4 += "This is the end.";
 //Note it needs to let for += to work properly NOT const, reminder that const cannot have their values changed 
 //Using the compounding assignment we are able to make it like the above
 //Another example 
