@@ -51,3 +51,5 @@ console.log(a);
 let output = "Get this to show once in the freeCodeCamp console and not at all in the browser console";
 console.log(output);
 console.clear();
+
+//warn is a good tool to use when you need to bring attention to something 
