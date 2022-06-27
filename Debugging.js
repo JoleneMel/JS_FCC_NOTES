@@ -124,3 +124,11 @@ console.log(`Net working capital is: ${netWorkingCapital}`);
 // half of the pair automatically.
 
 // Fix the two pair errors in the code.
+//before 
+// let myArray = [1, 2, 3; // missing ]
+//     let arraySum = myArray.reduce((previous, current =>  previous + current); needs ) at the end of current else previous is not defined
+//     console.log(`Sum of array values is: ${arraySum}`);
+
+let myArray = [1, 2, 3];
+let arraySum = myArray.reduce((previous, current) =>  previous + current);
+console.log(`Sum of array values is: ${arraySum}`);
