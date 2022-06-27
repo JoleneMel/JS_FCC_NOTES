@@ -458,3 +458,11 @@ function myFunc() {
   }
 }
 */
+function myFunc() {
+    //starting at 1 +2 =3 which will never = 4 sooo it never stop
+    //infinate loops can cause crashes 
+    for (let i = 1; i <= 4; i += 2) {
+      console.log("Still going!");
+    }
+  }
+  
