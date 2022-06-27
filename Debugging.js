@@ -298,3 +298,13 @@ value of power is the expected 8.
 //   let exp = 3;
 //   let power = raiseToPower(exp, base);
 //   console.log(power);
+//after 
+
+function raiseToPower(b, e) {
+    return Math.pow(b, e); // returns (b * b)e
+  }
+  
+  let base = 2;
+  let exp = 3;
+  let power = raiseToPower(base, exp);//switch 
+  console.log(power);
