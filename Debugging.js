@@ -197,4 +197,18 @@ The else block, which we expect to run here, will not actually run.
 Fix the condition so the program runs the right branch, and the appropriate value is assigned to result.
 */
 
-//answer
+//answer before 
+// let x = 7;
+// let y = 9;
+// let result = "to come";
+
+// if(x = y) {
+//   result = "Equal!";
+// } else {
+//   result = "Not equal!";
+// }
+
+// console.log(result);
+
+//answer after 
+
