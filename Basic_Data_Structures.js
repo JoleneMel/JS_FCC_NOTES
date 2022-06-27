@@ -111,4 +111,23 @@ We have defined a function, mixedNumbers, which we are passing an array as an ar
 Modify the function by using push() and unshift() to add 'I', 2, 'three' to the beginning of the array and 7, 'VIII', 
 9 to the end so that the returned array contains representations of the numbers 1-9 in order.
 
+
+ANSWER****************************************************************************************************************
+function mixedNumbers(arr) {
+  // Only change code below this line
+  //Adding using unshift using it one at a time oooorrr
+  // arr.unshift('three');
+  // arr.unshift(2);
+  // arr.unshift('I');
+  //unshift multiple arguments 
+  arr.unshift('I', 2, 'three');
+  //doing same with push 
+  arr.push(7, 'VIII', 9);
+  
+  console.log(arr);
+  // Only change code above this line
+  return arr;
+}
+
+console.log(mixedNumbers(['IV', 5, 'six']));
 */
