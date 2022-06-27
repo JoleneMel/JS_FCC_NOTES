@@ -41,6 +41,8 @@ let complexArray = [
 We have defined a variable called yourArray. Complete the statement by assigning an array of at least 5 elements in 
 length to the yourArray variable. Your array should contain at least one string, one number, and one boolean.
 
+
+//ANSWER****************************************************************************************************
 let yourArray = ["Hello Javascripters!", 1, true, false, true]; // Change this line
 */
 /*
@@ -70,4 +72,14 @@ Now ourArray is ["a", "not b anymore", "c"].
 
 In order to complete this challenge, set the 2nd position (index 1) of myArray to anything you want,
  besides the letter b.
+
+
+ANSWER************************************************************************************************
+
+
+let myArray = ["a", "b", "c", "d"];
+// Only change code below this line
+myArray[1] = "z"; //accessing it thru its index and changing the value 
+// Only change code above this line
+console.log(myArray);
 */
