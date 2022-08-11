@@ -172,4 +172,3 @@ function popShift(arr) {
 
 console.log(popShift(['challenge', 'is', 'not', 'complete']));
 */
-//WOOOOOO 350 CONTRIBUTIONS KEEP IT GOING HAHAHA
